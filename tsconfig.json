@@ -1,0 +1,28 @@
+{
+  "include": ["app/**/*"],
+  "exclude": ["node_modules", "build", "public"],
+  "compilerOptions": {
+    /* Language and Environment */
+    "target": "ESNext",
+    "moduleDetection": "auto",
+    "rootDir": ".",
+
+    /* Modules */
+    "module": "ESNext",
+    "moduleResolution": "node",
+    "baseUrl": "./",
+    "allowJs": true,
+    "checkJs": true,
+    "noEmit": true,
+    "jsx": "react-jsx",
+
+    /* Interop Constraints */
+    "allowSyntheticDefaultImports": true,
+    "isolatedModules": true,
+    "forceConsistentCasingInFileNames": true,
+
+    /* Type Checking */
+    "strict": true,
+    "skipLibCheck": true
+  }
+}

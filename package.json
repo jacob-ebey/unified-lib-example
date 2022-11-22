@@ -1,0 +1,22 @@
+{
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "universal-lib-template build",
+    "dev": "cross-env NODE_ENV=development node ./server.js",
+    "start": "node ./server.js"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "remix": "npm:universal-lib-template@1.0.23",
+    "universal-lib-template": "1.0.23"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.9",
+    "@types/react": "^18.0.25",
+    "@types/react-dom": "^18.0.9",
+    "cross-env": "^7.0.3",
+    "typescript": "^4.9.3"
+  }
+}
