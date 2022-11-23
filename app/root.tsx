@@ -1,5 +1,5 @@
-import { json } from "universal-lib-template";
-import { Outlet, Scripts, useLoaderData } from "universal-lib-template/react";
+import { json } from "remix";
+import { Outlet, Scripts, useLoaderData } from "remix/react";
 
 export function loader() {
   return json({ message: "Hello world!!" });
