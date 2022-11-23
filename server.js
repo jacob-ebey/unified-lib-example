@@ -5,7 +5,7 @@ const PORT = process.env.PORT ? Number(process.env.PORT) : 3000;
 
 let server;
 if (process.env.NODE_ENV == "development") {
-  const cli = await import("universal-lib-template/cli");
+  const cli = await import("remix/cli");
   const config = await cli.loadConfig();
 
   server = createServer(
